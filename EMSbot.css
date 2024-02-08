@@ -1,0 +1,34 @@
+/* body{
+    background-color: rgb(2, 6, 49);
+}
+.ems{
+    margin-left: 50%;
+} */
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(2, 6, 49);
+  }
+  
+  
+  
+  /* .container {
+    margin-left: 40%;
+    max-width: 800px;
+    margin: 0 auto;
+  } */
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Adapt min-height based on content */
+  }
+  
+  /* Adjust iframe dimensions and styling as needed */
+  iframe {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
